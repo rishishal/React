@@ -1,8 +1,8 @@
-import SearchBox from "./components/SearchBox";
+import Home from "./components/Home";
 const App = () => {
   return (
     <div>
-      <SearchBox />
+      <Home />
     </div>
   );
 };

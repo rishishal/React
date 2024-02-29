@@ -15,11 +15,11 @@ const SearchBox = () => {
   }, [user]);
 
   return (
-    <div className='flex items-center gap-2 w-full shadow-md focus-within:ring-2  dark:focus-within:ring-gray-200 focus-within:ring-slate-800  p-2 rounded-lg  dark:bg-slate-800 bg-white '>
+    <div className=''>
       <section className='flex items-center w-full h-full gap-2 '>
         <Search className='text-2xl text-blue-500' />
         <input
-          className='w-full h-[40px] rounded bg-inherit outline-none px-1 text-sm '
+          className=' '
           type='text'
           placeholder='GitHub username...'
           onChange={(e) => setUser(e.target.value)}
