@@ -1,8 +1,12 @@
 import Home from "./components/Home";
+import { ThemeProvider } from "./context/themeContext";
+
 const App = () => {
   return (
     <div>
-      <Home />
+      <ThemeProvider>
+        <Home />
+      </ThemeProvider>
     </div>
   );
 };
